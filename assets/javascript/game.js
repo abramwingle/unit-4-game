@@ -12,18 +12,9 @@ var greenCrystalAmount;
 var colorfulCrystalAmount;
 
 
-//create a score counter using onClick events on the images
-
-
-
-//make a random number generator for each crsytal
-
-
-
-//create reset function resetting all random numbers 
 
 function reset() {
-  
+
   score = 0;
 
   document.getElementById("totalScoreDisplay").innerHTML = "Your total score is " + score;
@@ -86,7 +77,7 @@ $(document).ready(function () {
   $("#redCrystal").click(function () {
     score = score + redCrystalAmount;
     console.log(score);
-    checkScore ();
+    checkScore();
     winOrLose();
 
 
@@ -96,7 +87,7 @@ $(document).ready(function () {
   $("#blueCrystal").click(function () {
     score = score + blueCrystalAmount;
     console.log(score);
-    checkScore ();
+    checkScore();
     winOrLose();
 
   });
@@ -104,7 +95,7 @@ $(document).ready(function () {
   $("#greenCrystal").click(function () {
     score = score + greenCrystalAmount;
     console.log(score);
-    checkScore ();
+    checkScore();
     winOrLose();
 
   });
@@ -112,7 +103,7 @@ $(document).ready(function () {
   $("#colorfulCrystal").click(function () {
     score = score + colorfulCrystalAmount;
     console.log(score);
-    checkScore ();
+    checkScore();
     winOrLose();
   });
 
