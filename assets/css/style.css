@@ -1,0 +1,96 @@
+
+
+body {
+    background-image: url("../images/treesBackgroundImages.png");
+    
+}
+
+.titleHead {
+    background-color: gray;
+    color: beige;
+    width: 15%;
+    min-width: 100px;
+    text-align: center;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.instructions {
+    background-color: beige;
+    color: grey;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#randomNumberDisplay {
+    background-color: lightblue;
+    width: 20%;
+    height: 100px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px
+}
+
+.scoreAndWinsDisplay {
+    display: flex;  
+    justify-content: center;
+    align-content: center;
+}
+
+#winsAndLossesDisplay {
+    background-color:  lightgray;
+    width: 15%;
+    height: 100px;
+    font-size: 20px;
+    margin-right: auto;
+    text-align: center;
+}
+
+#totalScoreDisplay {
+    background-color: tan;
+    width: 20%;
+    height: 100px;
+    margin-left: auto;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+
+#redCrystal {
+    height: 100px;
+    width: 23%;
+}
+
+#blueCrystal {
+    height: 100px;
+    width: 25%;
+}
+
+#greenCrystal {
+    height: 100px;
+    width: 25%;
+}
+
+#colorfulCrystal {
+    height: 100px;
+    width: 25%;
+}
+
+
+.crystalImages {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;   
+}
